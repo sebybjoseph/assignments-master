@@ -14,7 +14,7 @@
 */
 
 function calculateTotalSpentByCategory(transactions) {
-  if (transactions.lentgh === 0){
+  if (transactions.length === 0){
     return [];
   }
   let tempJSON = {};
